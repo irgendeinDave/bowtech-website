@@ -1,0 +1,55 @@
+
+.button {
+    border: 1px solid;
+    border-color: white;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    
+    display: inline-block; /* put boxes next to each other*/
+    vertical-align: top; /* center boxes in the middle*/
+
+    /*text properties*/
+    color: black;
+    background-color: #CBE6F7;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+    background-repeat: no-repeat;
+}
+
+#buttonBowtech { 
+    background-image: url("../resources/bowtech-logo.png");
+    background-size: 90%, 100%;
+    background-position: center, 20px;
+}
+
+#buttonCellNutrition {
+    background-image: url("../resources/bottle.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.button:hover {
+    transform: scale(105%);
+}
+
+.button:active {
+    transform: scale(100%);
+}
+
+.linkArea { 
+    position:sticky;
+    bottom: 5px;
+}
+
+.bottomLink {
+    background: none;
+    border: none;
+    font-size: large;
+}
+
+.bottomLink:hover {
+    text-decoration: underline;
+}
